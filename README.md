@@ -2,9 +2,6 @@
 
 Responsive admin dashboard built with HTML, CSS, and JavaScript.
 
-## Live Demo
-https://interfinder.github.io/dashboard
-
 ## Technologies Used
 - HTML
 - CSS
