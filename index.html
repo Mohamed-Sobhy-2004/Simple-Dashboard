@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+<body>
+  <img id="open-menu"src="img/next.png" alt="">
+  <div id="menu-bar">
+    <button id="close-bar">X</button>
+      <ul><li><a href=""> <img src="img/dashboard.png" alt=""></a></li></ul>
+      <ul><li><a href=""> <img src="img/gear.png" alt=""></a></li></ul>
+      <ul><li><a href=""> <img src="img/booking.png" alt=""></a></li></ul>
+      <ul><li><a href=""> <img src="img/multiple.png" alt=""></a></li></ul>
+  </div>
+  <div id="min" class="min-body">
+    <div class="sid-bar">
+      <img src="img/logo.png" alt="">
+      <ul><li><a href="">Dashboard</a></li></ul>
+      <ul><li><a href="">Settings</a></li></ul>
+      <ul><li><a href="">Orders</a></li></ul>
+      <ul><li><a href="">Users</a></li></ul>
+      
+    </div>
+    
+    <div class="content">
+      <nav> <h3>Dashboard</h3> </nav>
+
+      <div class="box-card">
+
+        <div class="card">
+          <img src="img/multiple.png" alt="">
+          <h3>Total Users</h3>
+           <h4 id="totalUs">236</h4>
+          </div>
+
+         
+            <div class="card">
+              <img src="img/check.png" alt="">
+              <h3>Active User</h3>
+               <h4 id="actv">236</h4>
+              </div>
+         
+    
+         
+            <div class="card">
+              <img src="img/booking.png" alt="">
+              <h3>Orders</h3>
+               <h4>20</h4>
+              </div>
+        
+    
+         
+            <div class="card">
+              <img src="img/growth.png" alt="">
+              <h3>Revenue</h3>
+               <h4 id="rev">236</h4>
+              </div>
+          
+
+      </div>
+
+      <div class="box-table">
+
+       <div class="table">
+
+        <table id="tables">
+          <tr>
+            <td>id</td>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Email</td>
+            <td>city</td>
+          </tr>
+      
+          <tbody id="tbodys"></tbody>
+        </table>
+
+
+       </div>
+
+        <div class="search">
+          <input type="text"  onkeyup="sercsh(data.users)" placeholder="Search by Name" id="serch" >
+          <br>
+          <button onclick=" moods()" id="btns">search By email</button>
+          
+        </div>
+
+      </div>
+
+     
+
+    </div>
+  </div>
+<script src="javascript.js"></script>
+</body>
+
+</html>
